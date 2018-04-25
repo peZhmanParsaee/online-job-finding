@@ -1,0 +1,30 @@
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\Persia.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.pdb
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\Persia.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.pdb
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\ResolveAssemblyReference.cache
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.BLL.Components.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\Persia.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\bin\Debug\OnlineJobFinding.Tools.Tools.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.BLL.Components\obj\Debug\OnlineJobFinding.BLL.Components.pdb

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJobFinding.DAL", "OnlineJobFinding.DAL", "{0C311D03-751D-4857-8A93-49668D55FB7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJobFinding.BLL", "OnlineJobFinding.BLL", "{E1781F64-CAC5-4A9A-AEEE-81B68AD59CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJobFinding.UIL", "OnlineJobFinding.UIL", "{10B7CAC2-1905-401C-A99A-04238EAB76FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineJobFinding.DAL.Database", "OnlineJobFinding.DAL.Database\OnlineJobFinding.DAL.Database.csproj", "{909943F3-622D-487C-9693-63D5969F19BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineJobFinding.BLL.Components", "OnlineJobFinding.BLL.Components\OnlineJobFinding.BLL.Components.csproj", "{13AC8BC9-6C61-4BF1-8E18-865916A6B03A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJobFinding.Tools", "OnlineJobFinding.Tools", "{F5EA85F0-8745-41A4-8873-0827006FCE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineJobFinding.Tools.Tools", "OnlineJobFinding.Tools.Tools\OnlineJobFinding.Tools.Tools.csproj", "{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "OnlineJobFondingModeling", "OnlineJobFondingModeling\OnlineJobFondingModeling.modelproj", "{120449AA-CD65-4AFB-BE08-8D561FACDC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJobFindingModeling", "OnlineJobFindingModeling", "{E2EAA7A7-ACB8-4221-8349-E19B838BC5E2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OnlineJobFinding", "OnlineJobFinding\", "{44B01502-272E-48A9-97A6-FB93EFDEBB6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/OnlineJobFinding"
+		Debug.AspNetCompiler.PhysicalPath = "OnlineJobFinding\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineJobFinding\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OnlineJobFinding"
+		Release.AspNetCompiler.PhysicalPath = "OnlineJobFinding\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineJobFinding\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6666"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909943F3-622D-487C-9693-63D5969F19BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909943F3-622D-487C-9693-63D5969F19BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909943F3-622D-487C-9693-63D5969F19BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909943F3-622D-487C-9693-63D5969F19BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AC8BC9-6C61-4BF1-8E18-865916A6B03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AC8BC9-6C61-4BF1-8E18-865916A6B03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AC8BC9-6C61-4BF1-8E18-865916A6B03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AC8BC9-6C61-4BF1-8E18-865916A6B03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120449AA-CD65-4AFB-BE08-8D561FACDC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120449AA-CD65-4AFB-BE08-8D561FACDC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120449AA-CD65-4AFB-BE08-8D561FACDC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120449AA-CD65-4AFB-BE08-8D561FACDC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B01502-272E-48A9-97A6-FB93EFDEBB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B01502-272E-48A9-97A6-FB93EFDEBB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B01502-272E-48A9-97A6-FB93EFDEBB6C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B01502-272E-48A9-97A6-FB93EFDEBB6C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{909943F3-622D-487C-9693-63D5969F19BC} = {0C311D03-751D-4857-8A93-49668D55FB7D}
+		{13AC8BC9-6C61-4BF1-8E18-865916A6B03A} = {E1781F64-CAC5-4A9A-AEEE-81B68AD59CBA}
+		{44B01502-272E-48A9-97A6-FB93EFDEBB6C} = {10B7CAC2-1905-401C-A99A-04238EAB76FF}
+		{D7C1DF5F-7E0E-4E18-9641-FEBAD80B3F3D} = {F5EA85F0-8745-41A4-8873-0827006FCE1A}
+		{120449AA-CD65-4AFB-BE08-8D561FACDC36} = {E2EAA7A7-ACB8-4221-8349-E19B838BC5E2}
+	EndGlobalSection
+EndGlobal

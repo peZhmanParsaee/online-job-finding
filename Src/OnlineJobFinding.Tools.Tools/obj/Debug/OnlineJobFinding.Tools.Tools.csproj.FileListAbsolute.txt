@@ -1,0 +1,10 @@
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.Tools.Tools\bin\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.Tools.Tools\bin\Debug\OnlineJobFinding.Tools.Tools.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\OnlineJobFinding.Tools.Tools.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.Tools.Tools\bin\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.Tools.Tools\bin\Debug\OnlineJobFinding.Tools.Tools.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\OnlineJobFinding.Tools.Tools.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.Tools.Tools\obj\Debug\OnlineJobFinding.Tools.Tools.pdb

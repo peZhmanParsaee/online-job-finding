@@ -1,0 +1,17 @@
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.dll.config
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\my documents\visual studio 2010\Projects\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.pdb
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.dll.config
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\ResolveAssemblyReference.cache
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.dll
+G:\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\bin\Debug\OnlineJobFinding.DAL.Database.pdb
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.dll
+C:\Documents and Settings\pezhman\Desktop\BSc Final Project\OnlineJobFinding\OnlineJobFinding.DAL.Database\obj\Debug\OnlineJobFinding.DAL.Database.pdb

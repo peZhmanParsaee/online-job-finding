@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a86ad3c5-df1d-41ca-8bb4-7853a5bff306" name="UMLUseCaseDiagram1" linkedPackageId="fe196cfb-e9c3-499f-aae6-872f5edfe669" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="2b2d7f3b-24ef-4237-9ea6-759b6464e337" name="مدير" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6887259e-4a9c-4d14-9606-60763845eb75" />
+        <generalsInternal>
+          <generalization Id="ee6df666-174a-4f63-a576-2b955dbe6568" isSubstitutable="false">
+            <actorMoniker Id="a72b9898-c089-40fa-a67c-ef1d18ce741c" LastKnownName="كاربر" />
+            <elementDefinition Id="af83df01-4863-4498-8e80-ede1f90711d8" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="2fcc323d-5270-4ddc-829d-dd266be74b22" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="ليست كارجويان" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fb74a203-b42c-471d-b97a-063afeef28ae" LastKnownName="ليست كارجويان" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a83d6e46-d27b-427b-9eb6-2a115af82ede" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="97d8337e-4dac-4e9a-b8d0-04df74e47e12" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4467b8e5-fc16-4c68-b46d-c09394dcac68" name="ليست كارجويان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9b42333e-0a7b-47a5-bd5c-a90d67a375db" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c792c568-4b80-4fe4-a929-472814e8f598" />
+          </association>
+          <association Id="ba7781f7-aa3e-4cc2-a822-255eafbaae89" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="ليست كارفرمايان" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e81ab4f-3094-42dc-86a3-35cd94c63625" LastKnownName="ليست كارفرمايان" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f2b01c3-d160-47a4-ac7c-faae9899b01e" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d56ef753-759e-406a-9b38-a5b6a5dedf2c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65994fc3-2d8f-4a52-96d4-32427be81098" name="ليست كارفرمايان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cef47678-f07a-479c-a8c8-cb28ac3c11d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c94f833b-3355-4ec4-9462-df247f46994a" />
+          </association>
+          <association Id="424b0f4f-9621-4050-b431-bb18f15e1d2e" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="جزئيات كارفرما" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d99442a5-e741-407f-81f5-e43e28a6a401" LastKnownName="جزئيات كارفرما" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed56ec47-c6f4-4c3c-92ae-f12d2121f858" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="213800cb-408a-4735-978b-7e3a5e26567d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0cbdbede-3ed7-4775-a25a-3c3f9731f2c2" name="جزئيات كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a2da07d0-95ed-4269-8d37-c8a631834445" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1a8b6b2-97c6-48c8-a4f8-28484d814c1a" />
+          </association>
+          <association Id="2adfbfcc-5888-42c1-b0b2-73cafe7c53a6" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="حذف كارفرما" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="433e8a70-4ad2-4b00-b429-88b86dd57dc6" LastKnownName="حذف كارفرما" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ea40bff-6f12-4cfa-a1db-c1fedf602156" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5e8952e8-3c92-4806-a885-c76ead4ffcf3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6102f037-17ba-4c35-88d9-24263797c46e" name="حذف كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="930067de-be92-432e-bbb8-889bd3096ab4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="40374622-4401-4aed-aa0e-cdaa12a5a997" />
+          </association>
+          <association Id="77224513-8585-4491-bbad-17461768ef1e" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="جزئيات كارجو" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0c718319-d5c2-46eb-b0b1-19c9bb98127b" LastKnownName="مشاهده رزومه" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ea70bd22-758a-49c4-bfb2-3a2d2a30186d" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f698cbb2-266e-4698-9efd-9e3159f9255a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8bd51dea-0d4d-4225-9727-b239cbad13b5" name="جزئيات كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03dac0fa-94b4-4962-bb27-7e5d5dc87cc5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="83f2b866-34c1-4215-8173-de857a5462b1" />
+          </association>
+          <association Id="df47472c-6355-48f2-9665-4687773561a7" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="حذف كارجو" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8d7e3cac-303e-46af-aecd-7b3d182ea898" LastKnownName="حذف كارجو" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7dfcf89-9d66-4c6d-a387-60c51cd3ffaa" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bf29daa6-beb9-4e0b-8c1a-fd2b3a2b2bdb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c62de73-0309-4d75-aa32-1098479a7f21" name="حذف كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="23eee30a-5334-49dc-ac0c-afab9058ecbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c4b89569-5063-4573-8e88-e3a5cbff2132" />
+          </association>
+          <association Id="68262038-d890-4052-b12e-f40f397f5eec" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="حذف شغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="77578af9-28a7-4c7e-b2bb-acc0307aca21" LastKnownName="حذف شغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1bbf475a-4dcd-4266-b8bf-1cdcd8aa519b" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="50e926a9-8a92-4a9b-b524-5bd3e94f64eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02b0061b-4ce7-4a00-ba6b-55ecb4f46035" name="حذف شغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d1ea26f4-e879-42f2-8305-82a079be7250" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4a60cdda-9986-48ef-b080-248d93db044a" />
+          </association>
+          <association Id="c2b939dc-5847-47b4-90eb-e5aea95ac44f" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6e71a981-581c-47d1-9556-33f67ad3a560" LastKnownName="حذف لينك" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08d86565-8d56-4038-a05f-e99b92709633" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3863ec88-322b-4d70-9aed-add7cd3b33a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8457bc0e-71f2-4675-b434-82dc075bd335" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3361dc9c-4c46-4dfe-a7fa-ed214df33c10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eeb6005a-be69-47b8-b31d-d498bff62bda" />
+          </association>
+          <association Id="bbbba41d-d92c-4714-b7bf-79aced89323a" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="UseCase5" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="938b4e30-0828-4040-bfd1-b5562163d4a9" LastKnownName="جزئيات لينك" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28c2f079-d10c-4211-87ca-bec1d6e28315" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4b1de8df-9ac3-4603-ac92-385d8870c4d9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57b0976f-4329-4551-b9cb-388444349138" name="UseCase5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7884b21a-534b-41a9-9f69-02cde2c55732" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="552431a6-44e5-43a5-8ee5-4bfe328b3aaf" />
+          </association>
+          <association Id="c7cdcc6b-aca9-4993-bb8f-cec5c14ee9b1" isDerived="false" sourceEndRoleName="مدير" targetEndRoleName="UseCase6" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2845c3bc-135a-423d-ab6d-4ccdc8008e1b" LastKnownName="ليست لينكها" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6204187f-fe73-4c71-a494-30e11d95df14" name="مدير" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="55fd722e-c68a-4c40-a621-44f4f1e4e974" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cbc1c1aa-32ad-4e30-9080-fa0851a23f3a" name="UseCase6" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c544ff08-231c-4b0d-b0af-df3b1e8a8543" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0007f8c4-e59e-4a29-8881-c72b0e122e6c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8a46c0dc-e946-418b-b9f0-db19c4a1fabe" name="كارفرما" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c6769f76-46fd-487f-a0ed-0d235028dff3" />
+        <generalsInternal>
+          <generalization Id="2aeb8ccd-d8f4-4ab0-a940-f266f8da7fef" isSubstitutable="false">
+            <actorMoniker Id="a72b9898-c089-40fa-a67c-ef1d18ce741c" LastKnownName="كاربر" />
+            <elementDefinition Id="37fcc5f8-66ef-42e1-af95-385e8e263f7e" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="fb1487f5-80f3-48e1-98d9-1ad21c3578aa" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="ليست كارجويان" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fb74a203-b42c-471d-b97a-063afeef28ae" LastKnownName="ليست كارجويان" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca062f04-1e0d-44ee-b628-0f789c87f9a9" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="88e1d1a5-c762-4356-9896-68da4ba998b8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46b69137-6714-41c4-9553-d8c6aaa9d3bf" name="ليست كارجويان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="84114504-7746-4766-8045-bfefba3a51c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="de2f40a3-8eb1-47b3-9736-7a9fb4e581ce" />
+          </association>
+          <association Id="700a5add-5ae7-4b93-b9b0-ca498be54cf9" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="جزئيات كارجو" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0c718319-d5c2-46eb-b0b1-19c9bb98127b" LastKnownName="مشاهده رزومه" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e58ec19-6d12-48b2-b442-f27197dddba4" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="03a2278e-cd32-40eb-ba23-159eb85bbf2c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="561d6ab9-6849-4426-b0e1-848800345e10" name="جزئيات كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6fe9460e-44d8-47a3-bea1-cd6a18684f03" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1fcc8cd9-f2fe-4249-b8f8-324f8cbb5179" />
+          </association>
+          <association Id="c543dd40-fcb9-4da3-b743-130755029dfb" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ef7536d7-226a-4ea6-b348-6637fa2b8669" LastKnownName="ارسال دعوت نامه" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="31a268b6-f491-478b-994d-e79ea7736f1b" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c36335d6-3274-4b00-a229-91abff6d6f0e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de8f8275-4181-4faa-b29a-6e9b981d8c5c" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a8eff2e5-e856-4447-a086-a6c5f025b016" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1c07ebbc-5850-43e6-ab2a-f2aaf15efe43" />
+          </association>
+          <association Id="a73f3087-3101-4c16-a1d1-424d8db5b920" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="ارسال فرصت شغلي" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ded59b91-5a8d-4199-96f4-0eebb148a747" LastKnownName="ارسال فرصت شغلي" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5281f72-0592-4138-b4fd-b44799b585b8" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cd5d2629-417b-4ff5-b5ff-f394989f7656" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6d892c6-a023-4d49-98ea-cee8eabce232" name="ارسال فرصت شغلي" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bfe1e09b-7f54-4a66-95b6-85a5f6d89fbf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3f4caa0c-b870-497f-9a12-846059d1d083" />
+          </association>
+          <association Id="6d1ea1d2-68db-4d88-8741-7b3a46f0bb05" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="ليست كانديدهاي من" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e49a37cd-7888-4ea3-8e02-5b99ad1c0612" LastKnownName="ليست كانديدهاي من" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="545a0a38-9f28-4837-8da3-5e240ebfafde" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0b136d63-4204-42ed-8274-7407a272d5e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2317152-66be-41e2-9790-6f2dfee56aa4" name="ليست كانديدهاي من" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="da640a6f-ec43-4b83-a0da-b8e302886752" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b1e7aada-fe37-49bf-afb7-5b0da1b1d27e" />
+          </association>
+          <association Id="e9983a85-9397-405e-8ab4-341ecd361200" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="جزئيات كانديد" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8fa419c0-3ee6-4512-801f-bc4abce9e4d6" LastKnownName="جزئيات كانديد" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f080ab6-eb1a-436a-92a8-22f4194f9af2" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3819294a-4be2-4d89-88f6-36018404cfe2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="126d8f15-9acd-413b-a128-6ff5abd4a090" name="جزئيات كانديد" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="687db381-0d8f-48f3-9e2c-38871b33cf1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ef0581fd-97b7-47bf-b1f1-7087c82dd450" />
+          </association>
+          <association Id="b767a7cd-3899-45c3-9f71-73be2128af36" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="استخدام كانديد" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f8c0adb9-3c4b-46b9-831e-734d1b4887cf" LastKnownName="استخدام كانديد" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cfa80d9-730e-4346-aee5-af529a894555" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2e639a1c-3ea3-4bc5-bebe-118800ad9e23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="151fbff7-65a2-46d0-858f-569a845be1ec" name="استخدام كانديد" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ee7d99e8-e854-4234-8dde-e471cee467de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="03728291-e083-465c-b5d7-a0d502b8d244" />
+          </association>
+          <association Id="b711a6d4-49ff-4194-b7b4-c2e1e79eabce" isDerived="false" sourceEndRoleName="كارفرما" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6fa927dd-1be4-487c-9452-e9f93b51569a" LastKnownName="ليست مشاغل من" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ab7e53c-b4fe-4d76-9a37-2df5e33ee0e6" name="كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a00c733-dafd-4898-8130-9eacf8727f3b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1ee17a3-1162-4e2e-a3e8-9fe478485631" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="88acb680-cf7d-4c78-a3b3-e099ea96c87b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="330ff723-3dff-40bf-8ffe-52c6da147497" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4672ef7c-aa43-49a6-9541-2623559338b4" name="ورود" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0e0e3221-c719-452f-9574-f9e0d26a5acc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a72b9898-c089-40fa-a67c-ef1d18ce741c" name="كاربر" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="becf484a-c7cd-4da4-a94d-72b1d59af6f7" />
+        <targetEnds>
+          <association Id="2c196716-1475-4391-bf4d-18fb783ef23a" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="ورود" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4672ef7c-aa43-49a6-9541-2623559338b4" LastKnownName="ورود" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5a0f353-69fd-4ad0-9034-0a237d763192" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="834adb3c-1200-4fa5-b34d-36aa8a31fcbc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="184685ac-0dcd-4aac-a88a-416b44efde82" name="ورود" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2a9ddc5a-7533-42f5-b4fb-71897b818fa3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1db8bf1a-684a-4aaa-95e7-4e1fb71b998e" />
+          </association>
+          <association Id="ba8970ad-7c60-4ac8-b620-edb878cdf0e1" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="خروج" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c614f28d-fe53-4532-9a3b-34c5e7d489e2" LastKnownName="خروج" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37609db8-4816-4f21-99cf-23b0f3e63d02" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="533f2d7d-3647-4dd0-b594-8b8bb7c83595" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="85068756-58d9-4949-8d1e-7a9583340288" name="خروج" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03303652-e4ee-44ad-a884-5e7b01df68b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="523ffa44-619d-4e4f-9cc2-3587d486a5ab" />
+          </association>
+          <association Id="9df29f8f-15e7-44f3-9777-95cda7ddbb56" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="تغيير كلمه عبور" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="45ca24b6-d865-43f5-b582-5eb7cf66ff07" LastKnownName="تغيير كلمه عبور" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7c5a67b-47db-46dd-9233-1d1a599afd59" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="860faf65-dfaf-4a36-b3e4-3d4c457452dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6631fc8-cda6-4f1e-892e-0741df88264d" name="تغيير كلمه عبور" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="85ff5f59-dcda-4e01-aeec-d0d893b20a81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7e9bf2a8-61d8-44e6-ab1f-62d5d3f330b4" />
+          </association>
+          <association Id="11ef6531-d1aa-4b0e-a91d-7ef6192a112a" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="مشاهده مشاغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b5126d25-1d40-4f43-9f3c-595925649fee" LastKnownName="ليست مشاغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf87cd17-5072-451b-887f-bf1bbf246dca" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="df759d8f-cd6e-4748-9054-d66a59fd0494" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="05ea55be-071c-4ceb-a329-14460f2d2227" name="مشاهده مشاغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8a52712d-8605-4671-a3e8-9f4fb38c788e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="636e287e-b0cc-4c9a-8800-1558d9817392" />
+          </association>
+          <association Id="5bfa5595-3d9a-4abe-94d3-b579f8720803" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="مشاهده جزئيات يك شغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="55a2a91d-bbd0-4958-9b56-a67bf723f1e3" LastKnownName="جزئيات يك شغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="47e36086-3a2d-48b3-80b1-d673be54f68f" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4f094af3-5e50-4af7-b7dc-8de8d421ad4e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b512670-ea6f-4d2c-8c46-e853b80b993a" name="مشاهده جزئيات يك شغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26807262-6b78-42db-83f1-fd316ff65888" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="865d1461-f72f-49df-af68-2bfcc366b68f" />
+          </association>
+          <association Id="b576aae7-cd5a-41e3-b8d9-6539d09c725a" isDerived="false" sourceEndRoleName="كاربر" targetEndRoleName="تغيير مشخصات" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8aa08d3a-c297-4d0b-b075-ba586910882f" LastKnownName="تغيير مشخصات" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e8d67d9b-d002-4446-b1e5-ebfdfc024c84" name="كاربر" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9bc54d87-4050-4b87-9af7-adc44a5e156b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="658e1381-0a39-465e-8fa1-50fe61e5e286" name="تغيير مشخصات" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba95756e-5414-4a96-ae35-acf3ba296a54" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4f7084be-4198-4cba-9fcb-6af0e5b2d653" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c614f28d-fe53-4532-9a3b-34c5e7d489e2" name="خروج" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cc1ad899-953a-4eed-897c-6e917872fde1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="45ca24b6-d865-43f5-b582-5eb7cf66ff07" name="تغيير كلمه عبور" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a905455a-af8c-4085-979c-5921ecb6452f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b5126d25-1d40-4f43-9f3c-595925649fee" name="ليست مشاغل" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d074a40e-a8ca-4b68-a602-dcaa81a26d4d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="55a2a91d-bbd0-4958-9b56-a67bf723f1e3" name="جزئيات يك شغل" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="39d37edd-b96e-4891-aa4b-2f751d19ed38" />
+        <additions>
+          <include Id="a66b4b09-9a3a-4c35-8e91-c620db5ea25b">
+            <useCaseMoniker Id="b5126d25-1d40-4f43-9f3c-595925649fee" LastKnownName="ليست مشاغل" />
+            <elementDefinition Id="5b3f3ada-a048-417f-b3ea-a9a2e4f25172" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7e81ab4f-3094-42dc-86a3-35cd94c63625" name="ليست كارفرمايان" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b5b514e-cc27-4efe-8365-033ff7d0adca" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fb74a203-b42c-471d-b97a-063afeef28ae" name="ليست كارجويان" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e29bd63e-652b-4a91-8565-3feb1f7d2555" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d99442a5-e741-407f-81f5-e43e28a6a401" name="جزئيات كارفرما" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b0269309-2f69-4def-a907-c74f9e97042d" />
+        <additions>
+          <include Id="16008751-5be7-4a27-9cfd-44cc941aa8f1">
+            <useCaseMoniker Id="7e81ab4f-3094-42dc-86a3-35cd94c63625" LastKnownName="ليست كارفرمايان" />
+            <elementDefinition Id="0b914fbe-e5bd-4c02-bda0-f7bcf0962cb9" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="433e8a70-4ad2-4b00-b429-88b86dd57dc6" name="حذف كارفرما" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4959ca85-409f-4a83-80cb-e0f7f351f10e" />
+        <additions>
+          <include Id="e0673bce-e2c7-49e8-acc9-f95a5539d488">
+            <useCaseMoniker Id="d99442a5-e741-407f-81f5-e43e28a6a401" LastKnownName="جزئيات كارفرما" />
+            <elementDefinition Id="37cf4e01-8c43-4f97-a9a2-0f4f317678b4" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0c718319-d5c2-46eb-b0b1-19c9bb98127b" name="مشاهده رزومه" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08" />
+        <additions>
+          <include Id="ddf77e1d-1c08-43e6-be04-e6360077027b">
+            <useCaseMoniker Id="fb74a203-b42c-471d-b97a-063afeef28ae" LastKnownName="ليست كارجويان" />
+            <elementDefinition Id="9fe2fab7-6f66-41a4-9e7f-bd59242e469a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8d7e3cac-303e-46af-aecd-7b3d182ea898" name="حذف كارجو" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1d73d962-e07a-43e4-96df-6d9297915c7b" />
+        <additions>
+          <include Id="45136c28-a0d8-4819-85fe-38c7a7926255">
+            <useCaseMoniker Id="0c718319-d5c2-46eb-b0b1-19c9bb98127b" LastKnownName="مشاهده رزومه" />
+            <elementDefinition Id="78c7abbe-c060-420f-bcfc-137c8cbbacc0" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="77578af9-28a7-4c7e-b2bb-acc0307aca21" name="حذف شغل" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d8d94fda-426b-4f11-88de-ec40404d5f97" />
+        <additions>
+          <include Id="c2eb908b-075a-418c-9392-349eede60463">
+            <useCaseMoniker Id="55a2a91d-bbd0-4958-9b56-a67bf723f1e3" LastKnownName="جزئيات يك شغل" />
+            <elementDefinition Id="c5f78ae8-4836-4b3e-881d-01fb6dfb499a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6e71a981-581c-47d1-9556-33f67ad3a560" name="حذف لينك" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="89e325e5-83b5-4db1-bc45-18debc2587d1" />
+        <additions>
+          <include Id="6e91ec13-1cca-4c1b-a587-fe4aa8f6a61d">
+            <useCaseMoniker Id="938b4e30-0828-4040-bfd1-b5562163d4a9" LastKnownName="جزئيات لينك" />
+            <elementDefinition Id="c9f4ca88-8fe7-4523-9e40-220578f93293" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="938b4e30-0828-4040-bfd1-b5562163d4a9" name="جزئيات لينك" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="154fa89b-e0ca-4508-8bcf-494cb8de44e4" />
+        <additions>
+          <include Id="deded025-4021-4dda-8387-f32f4949d298">
+            <useCaseMoniker Id="2845c3bc-135a-423d-ab6d-4ccdc8008e1b" LastKnownName="ليست لينكها" />
+            <elementDefinition Id="86798a79-9327-4670-bcef-4501618c6310" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2845c3bc-135a-423d-ab6d-4ccdc8008e1b" name="ليست لينكها" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0150ef71-f554-42b7-99f5-bf9d0eabd0b1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ef7536d7-226a-4ea6-b348-6637fa2b8669" name="ارسال دعوت نامه" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43cc4333-5c91-492f-828d-e50052f248cb" />
+        <additions>
+          <include Id="fc6f65dd-6cc0-4244-b68d-8980a4e0db6b">
+            <useCaseMoniker Id="0c718319-d5c2-46eb-b0b1-19c9bb98127b" LastKnownName="مشاهده رزومه" />
+            <elementDefinition Id="cb2ee22c-cc6f-4c8e-bc03-df7cf525c370" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="12ca9f09-d077-4b4e-8435-796cf07d31a2" name="كارجو" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cda26bfd-7137-4202-9653-d9ab2c5ff7ab" />
+        <generalsInternal>
+          <generalization Id="c15c4794-a982-4490-b243-8068ccbb23a0" isSubstitutable="false">
+            <actorMoniker Id="a72b9898-c089-40fa-a67c-ef1d18ce741c" LastKnownName="كاربر" />
+            <elementDefinition Id="a4bf1b77-6225-40c9-98d2-81166f60a0b3" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="e3f984fc-1164-4503-b15f-21f3863b68af" isDerived="false" sourceEndRoleName="كارجو" targetEndRoleName="جزئيات كارفرما" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d99442a5-e741-407f-81f5-e43e28a6a401" LastKnownName="جزئيات كارفرما" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f9c5171-673f-4432-8bda-42a8d2a1475f" name="كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="24283f97-6c6c-4e31-addb-53998cf5ef9c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="899777b5-f6e2-4b48-a890-9343836cb001" name="جزئيات كارفرما" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2c249dc5-d212-47a8-9763-710ee5558362" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f18a6498-4a63-49e5-9dc8-34cc985caa8e" />
+          </association>
+          <association Id="b741ad52-145a-434e-92db-a9c17e2be1b9" isDerived="false" sourceEndRoleName="كارجو" targetEndRoleName="ليست كارفرمايان" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e81ab4f-3094-42dc-86a3-35cd94c63625" LastKnownName="ليست كارفرمايان" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="68bf1487-67c8-43a5-8389-66f96fbecd88" name="كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d74189e7-a2c5-4000-8627-c54a383965f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="421c6956-95e1-48c9-ae15-acf904242bee" name="ليست كارفرمايان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="91ec109d-556d-4c4d-a57d-8ed9a02fa975" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="70d7881a-8f43-46ac-9169-562d02f5b977" />
+          </association>
+          <association Id="9060504d-300d-4f00-8cdc-8019e1bc6712" isDerived="false" sourceEndRoleName="كارجو" targetEndRoleName="ابراز علاقه به شغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7c7463e-16a0-4d1a-8799-9b04386acccc" LastKnownName="ابراز علاقه به شغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf5b9181-595b-44a3-ae97-ecf0b3721c1c" name="كارجو" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16bafe79-ee5e-4b07-b5d3-da050231d84e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b65fd61a-8332-4cf5-b7c1-3304ba240c01" name="ابراز علاقه به شغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa3af224-22da-4894-8b39-aa4c7b876ca1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a4cc3b49-4d56-4acb-9e7c-b98727ee3198" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d7c7463e-16a0-4d1a-8799-9b04386acccc" name="ابراز علاقه به شغل" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f6de20e-0371-4dca-af9d-5f8f6235e708" />
+        <additions>
+          <include Id="ef5e69b4-b9cf-4180-9e77-893cd3fdb545">
+            <useCaseMoniker Id="55a2a91d-bbd0-4958-9b56-a67bf723f1e3" LastKnownName="جزئيات يك شغل" />
+            <elementDefinition Id="066997a3-0d41-4485-9e9a-9d345744342a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ded59b91-5a8d-4199-96f4-0eebb148a747" name="ارسال فرصت شغلي" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="17770519-1085-498d-bda3-bf82af32846c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e49a37cd-7888-4ea3-8e02-5b99ad1c0612" name="ليست كانديدهاي من" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3de4d841-9af5-40aa-9bd7-5859603fe8e4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8fa419c0-3ee6-4512-801f-bc4abce9e4d6" name="جزئيات كانديد" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="501c8553-c3a4-485c-a8d7-eda5c0de90d8" />
+        <additions>
+          <include Id="5188e04d-10db-4225-aebf-74b23237273f">
+            <useCaseMoniker Id="e49a37cd-7888-4ea3-8e02-5b99ad1c0612" LastKnownName="ليست كانديدهاي من" />
+            <elementDefinition Id="a43da8c5-23bc-42da-a360-0e481673eef5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f8c0adb9-3c4b-46b9-831e-734d1b4887cf" name="استخدام كانديد" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="14a70690-7406-4220-a496-959d20f5d770" />
+        <additions>
+          <include Id="89f6d5bc-5ee7-4050-a270-e7f5cf8831c1">
+            <useCaseMoniker Id="8fa419c0-3ee6-4512-801f-bc4abce9e4d6" LastKnownName="جزئيات كانديد" />
+            <elementDefinition Id="54481443-fd6b-4af6-9bf1-f7839089e457" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6fa927dd-1be4-487c-9452-e9f93b51569a" name="ليست مشاغل من" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2f9e406b-0c0f-47e9-b942-a6b4b35d173a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8aa08d3a-c297-4d0b-b075-ba586910882f" name="تغيير مشخصات" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec8c38cf-3db4-4030-8cd5-5660c5fc2dc2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f381f11b-efee-466f-bb32-c9c4a4b35355" name="مهمان" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de9fb11f-79cd-486e-a6b9-c238837aac33" />
+        <targetEnds>
+          <association Id="fb337790-722c-4185-af37-2319676b6ef8" isDerived="false" sourceEndRoleName="مهمان" targetEndRoleName="ثبت نام" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="40a4d259-3e0b-4a1f-95b0-79bc413c46e8" LastKnownName="ثبت نام" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b916a17-71ff-4882-9fe1-067482ce2cda" name="مهمان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dd9b72a1-0d9b-4321-88cd-d8cb0fe0abea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="926ce1b3-a877-4b27-89e4-c2819a9fab17" name="ثبت نام" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f24e766a-aba0-42e4-b00c-703214d02cae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a29c539-2de2-462a-8a34-c631c2e2a943" />
+          </association>
+          <association Id="7ea608c8-0327-4d68-876c-687ecaac1753" isDerived="false" sourceEndRoleName="مهمان" targetEndRoleName="جزئيات يك شغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="55a2a91d-bbd0-4958-9b56-a67bf723f1e3" LastKnownName="جزئيات يك شغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1948a3f-3fff-4418-a5e2-54796589e805" name="مهمان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="06d54ea2-90e9-45f7-8cfa-e2cbbb4a8dbe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="31c107c8-cfb8-4a2f-a312-6710c003abca" name="جزئيات يك شغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa9b2f09-33d4-4b5a-b04f-6acf19c24677" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d36d45be-473c-4cb9-b567-1ea0827df250" />
+          </association>
+          <association Id="02b280aa-f4da-440e-8fc7-e850517688ed" isDerived="false" sourceEndRoleName="مهمان" targetEndRoleName="ليست مشاغل" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b5126d25-1d40-4f43-9f3c-595925649fee" LastKnownName="ليست مشاغل" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e85c915-1da1-4128-920a-354d1bbdf265" name="مهمان" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9ec85b7f-e289-4f3b-a30d-900e87881bc9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="845fee1e-5194-43f1-b816-89b37fc29e02" name="ليست مشاغل" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bc164840-f983-4d6a-9ee3-235eae602089" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7191cefe-1d0b-4649-a8ea-74b4986859a5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="40a4d259-3e0b-4a1f-95b0-79bc413c46e8" name="ثبت نام" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2f53ab5a-75eb-45c2-be4f-5e3ebfcf7a32" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="fe196cfb-e9c3-499f-aae6-872f5edfe669" name="OnlineJobFondingModeling">
+    <elementDefinition Id="20046ea4-1351-431a-8dcc-989d03dba8c8" />
+    <profileInstances>
+      <packageHasProfileInstances Id="09e1d18f-e53d-4b0b-882c-eba78d2e8495">
+        <profileInstance Id="e700574e-be5a-4d4d-b0f6-1af8d0784b15" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="69bdd9c6-8aed-4802-92be-0c2db730deae">
+        <profileInstance Id="8e3cdf6c-a55f-4097-994c-c5dc8a534f33" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

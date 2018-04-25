@@ -1,0 +1,2678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="20046ea4-1351-431a-8dcc-989d03dba8c8"
+  name="OnlineJobFondingModeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="7b6b8dc5-6b8d-46f4-9211-3ffadba1b1c7"
+        name="كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="35b2fd00-13b6-4046-8bb4-c20eda764072"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="b25d7dd1-a142-4e5c-9ab8-25471670bb95"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="f76b769a-3b93-44c0-bc12-6e5fae0e5e45"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="ارسال فرصت شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f61bfcf3-6e14-488e-bf84-9a33cfc457a4"
+              LastKnownName="ارسال فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a7e7a6be-df5a-42d8-ac8d-d2359bd7a05a"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc72418f-0150-4d0a-879c-448b35170c6b"
+                  name="ارسال فرصت شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c9c41552-5f98-4f1d-ac31-c14e0eaf5f9e"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="مشاهده ليست كارجويان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="857b75b0-f669-4962-8c3b-c0dade9545eb"
+              LastKnownName="مشاهده ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7a3636bf-e383-4676-b354-8a40e459a198"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="437c5d5f-4a27-4274-b9d4-66091955c348"
+                  name="مشاهده ليست كارجويان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3f5c312e-b0f0-49a5-a68f-9f3ad6127c92"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="مشاهده جزئيات كارجو"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c842bb9d-0bed-49ed-bef7-2e4032143b79"
+              LastKnownName="مشاهده رزومه كارجو"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fec197d1-f858-4571-b210-2f32f26316b3"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="577226f6-b264-4eab-889c-8112b4169d9d"
+                  name="مشاهده جزئيات كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a3f46dc7-af72-45ce-bfb4-04df888530e1"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="ديدن كانديدها"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bd72f320-c186-4baf-a972-4c91d077c0c8"
+              LastKnownName="ديدن كانديدها"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="28a746bc-2d79-4cec-b784-ee29d5885e62"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9696b914-013c-4906-b7cf-7b40e6766477"
+                  name="ديدن كانديدها"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cc7b8ddb-28e2-422a-a06d-2dd716c98d5a"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="دعوت به كار"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0fca83c-e772-414f-812f-7291d58468f8"
+              LastKnownName="دعوت به كار"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="837ba0ee-a73c-4a5f-a488-ec63201381f1"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c9252ed-c67e-4208-bcf5-44e25a4e32f2"
+                  name="دعوت به كار"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="d31601cf-a85c-49a7-be2a-35dff393b3c8"
+        name="كارجو"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="2b1da3ca-c6cf-4cab-acee-09bbaff80931"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="b25d7dd1-a142-4e5c-9ab8-25471670bb95"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="45176ac6-92c5-4b8e-99df-5fbc624e39d4"
+            isDerived="false"
+            sourceEndRoleName="كارجو"
+            targetEndRoleName="ابراز علاقه به فرصت شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e3985fb2-402e-47aa-8518-d6b2c292c016"
+              LastKnownName="ابراز علاقه به فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ad519e9-b171-4e14-b3e6-fc36b74dcca1"
+                  name="كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54bf49dd-619e-4ef1-9f40-5c8c4839a1eb"
+                  name="ابراز علاقه به فرصت شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d645226c-4fe9-423d-bde8-35319697d1f3"
+            isDerived="false"
+            sourceEndRoleName="كارجو"
+            targetEndRoleName="مشاهده جزئيات فرصت شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ce55b87c-acca-4c15-8306-a2ec920c6f97"
+              LastKnownName="مشاهده جزئيات فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="174b647c-84cd-4843-9144-9dbd1074e667"
+                  name="كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc96a6fc-a41f-462e-918f-6d7e1bbaebc6"
+                  name="مشاهده جزئيات فرصت شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f8cc1199-7864-447c-a880-82c07ef5ad9e"
+        name="مدير وب سايت"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="4d679a10-7819-4d27-b788-2d06b60d7cd5"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="b25d7dd1-a142-4e5c-9ab8-25471670bb95"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="10a03f8d-4278-4e38-ab38-b9fc5be0a35e"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="UseCase3"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e695310e-1531-481c-b5a6-a2effc791dd6"
+              LastKnownName="حذف فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd301f7e-08bf-4ed5-a1a3-26852108c037"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1648f186-9a2c-42aa-87b1-1cc9a0fd5e21"
+                  name="UseCase3"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="08a726d4-b52f-41fd-a599-d7ee1b67ff14"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2731eb03-61f4-4f4a-bc89-88b7843636ba"
+              LastKnownName="حذف كارجو"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c668ba4d-9068-4144-a92c-427fb5b3c5a1"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05bf158d-0106-413a-9b29-ec9e8f1ba864"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="17478c7b-d3d8-41f8-8c12-6052025b0fdd"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="UseCase1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c5cf38c6-d962-4805-b2c5-5bb9ade45823"
+              LastKnownName="حذف كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ced1f38-be85-4233-9eb5-006c6cbb37f5"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="364316b4-a1f8-492f-9692-f87edb5f7b85"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="12bef998-1be9-4a78-ace1-482709a039ab"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="مشاهده ليست كارفرمايان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3def9cb5-24ce-4af3-983d-04c5229b2f3d"
+              LastKnownName="مشاهده ليست كارفرمايان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ce1bd817-e523-49a6-ac08-7dc3a373a972"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="594ffaa3-a516-4272-bbee-40e7e38acf8f"
+                  name="مشاهده ليست كارفرمايان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="66b7f638-b08f-4f88-982a-fdee45829d4b"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="مشاهده ليست كارجويان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="857b75b0-f669-4962-8c3b-c0dade9545eb"
+              LastKnownName="مشاهده ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6cace6cd-2b81-4518-9513-85d390df9848"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d20d942b-7410-44aa-8c9c-34b09a46fb60"
+                  name="مشاهده ليست كارجويان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3ec3ba54-4751-4b82-8f36-dcfdad247f13"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="مشاهده جزئيات كارفرما"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="649f506a-8ecf-4794-9a00-765e35e0707f"
+              LastKnownName="مشاهده جزئيات كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09e72366-bc3e-4b40-b916-436ecc5c6f51"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6be75ac4-31f4-4444-ae26-f866bfdcc6b4"
+                  name="مشاهده جزئيات كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8bced0a7-24f4-4907-ae07-2006a9feffec"
+            isDerived="false"
+            sourceEndRoleName="مدير وب سايت"
+            targetEndRoleName="مشاهده جزئيات كارجو"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c842bb9d-0bed-49ed-bef7-2e4032143b79"
+              LastKnownName="مشاهده رزومه كارجو"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="793c012d-992d-448a-9606-e59177cc77dd"
+                  name="مدير وب سايت"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be09b8d7-1b5f-46b1-9f34-0d7f6aa2960c"
+                  name="مشاهده جزئيات كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f61bfcf3-6e14-488e-bf84-9a33cfc457a4"
+        name="ارسال فرصت شغلي"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5c6cc9a4-2677-4591-9d1b-8062d62002ae"
+        name="مشاهده ليست فرصتهاي شغلي"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ce55b87c-acca-4c15-8306-a2ec920c6f97"
+        name="مشاهده جزئيات فرصت شغلي"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="225ec25d-e253-4c3b-b5a8-eb1997864b93">
+            <useCaseMoniker
+              Id="5c6cc9a4-2677-4591-9d1b-8062d62002ae"
+              LastKnownName="مشاهده ليست فرصتهاي شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="11f9d332-8b59-47d2-9d93-e5415de8155a"
+        name="كاربر"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b25d7dd1-a142-4e5c-9ab8-25471670bb95"
+        name="كاربر"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3f9ac36c-c17e-4fb2-ac17-df1310743cb0"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="ورود"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cb8f51e1-04c5-4d6d-bf94-bc765499a6fd"
+              LastKnownName="ورود"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="595645e3-b584-4210-8e78-d36d42d28a8e"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0f3f342-98df-4b95-a629-1df5ff84192f"
+                  name="ورود"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9d0b66a3-39b2-43b7-971d-30b972df8048"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="ثبت نام"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1600a535-c021-4af7-a224-fa16dc5bb06a"
+              LastKnownName="ثبت نام"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="faad5373-883e-4011-8af3-950f726b816e"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="549f59af-85cb-4356-bd98-272660610bee"
+                  name="ثبت نام"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="57642a0f-a6fc-4955-9091-9afb52bcff39"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="خروج"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3163760d-0a57-4756-94aa-d44a9c7f3774"
+              LastKnownName="خروج"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb3fceb2-850b-40b6-a6fe-d319710bba06"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5418bdd6-c3e4-49b4-8c67-7581a1d5e4df"
+                  name="خروج"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8b76dca-c65c-4280-8d4d-5085f2246819"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="ديدن جزئيات يك فرصت شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ce55b87c-acca-4c15-8306-a2ec920c6f97"
+              LastKnownName="مشاهده جزئيات فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bfc6fda7-9302-4cb8-b311-b4e84842e71a"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="66d9a459-e92f-464f-8387-10e4003a52dd"
+                  name="ديدن جزئيات يك فرصت شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a4920a5a-b06b-437b-8e6d-16be58473b7f"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="ديدن كليه فرصتهاي شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5c6cc9a4-2677-4591-9d1b-8062d62002ae"
+              LastKnownName="مشاهده ليست فرصتهاي شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5929f285-693a-4d92-af00-cc3cb5c6307f"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44c22a90-d022-4dba-90a0-89bc8928c946"
+                  name="ديدن كليه فرصتهاي شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f03eb163-4667-4489-a5d6-c60c70062615"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="تغيير كلمه عبور"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="eb105a0b-00a2-46c6-9e5e-4c2859b4d37e"
+              LastKnownName="تغيير كلمه عبور"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e7b5c227-39e2-4105-b94a-fd99ae5dbfce"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="19ff2057-2210-4ef8-bb45-87c69b471a5e"
+                  name="تغيير كلمه عبور"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cb8f51e1-04c5-4d6d-bf94-bc765499a6fd"
+        name="ورود"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3163760d-0a57-4756-94aa-d44a9c7f3774"
+        name="خروج"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1600a535-c021-4af7-a224-fa16dc5bb06a"
+        name="ثبت نام"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c5cf38c6-d962-4805-b2c5-5bb9ade45823"
+        name="حذف كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="73c1e80b-01df-41a5-a4cc-be2477751bf3">
+            <useCaseMoniker
+              Id="649f506a-8ecf-4794-9a00-765e35e0707f"
+              LastKnownName="مشاهده جزئيات كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2731eb03-61f4-4f4a-bc89-88b7843636ba"
+        name="حذف كارجو"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="ffbacef4-e94d-4414-a77f-c3e67d326de7">
+            <useCaseMoniker
+              Id="c842bb9d-0bed-49ed-bef7-2e4032143b79"
+              LastKnownName="مشاهده رزومه كارجو"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e695310e-1531-481c-b5a6-a2effc791dd6"
+        name="حذف فرصت شغلي"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="e9fa7cf3-11cb-410d-810e-deff19f15ec2">
+            <useCaseMoniker
+              Id="ce55b87c-acca-4c15-8306-a2ec920c6f97"
+              LastKnownName="مشاهده جزئيات فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3def9cb5-24ce-4af3-983d-04c5229b2f3d"
+        name="مشاهده ليست كارفرمايان"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="857b75b0-f669-4962-8c3b-c0dade9545eb"
+        name="مشاهده ليست كارجويان"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="649f506a-8ecf-4794-9a00-765e35e0707f"
+        name="مشاهده جزئيات كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="614de1d0-9a65-4198-a17b-e8f33725165b">
+            <useCaseMoniker
+              Id="3def9cb5-24ce-4af3-983d-04c5229b2f3d"
+              LastKnownName="مشاهده ليست كارفرمايان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c842bb9d-0bed-49ed-bef7-2e4032143b79"
+        name="مشاهده رزومه كارجو"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="0c9610e9-9e92-4dae-8be5-73c600d8d55b">
+            <useCaseMoniker
+              Id="857b75b0-f669-4962-8c3b-c0dade9545eb"
+              LastKnownName="مشاهده ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e3985fb2-402e-47aa-8518-d6b2c292c016"
+        name="ابراز علاقه به فرصت شغلي"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="b1be9601-2b43-45ce-bec8-2fa0ae39dddf">
+            <useCaseMoniker
+              Id="ce55b87c-acca-4c15-8306-a2ec920c6f97"
+              LastKnownName="مشاهده جزئيات فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eb105a0b-00a2-46c6-9e5e-4c2859b4d37e"
+        name="تغيير كلمه عبور"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6e4b6d80-b758-4fd1-9496-1db6376d5a0e"
+        name="مشاهده رزومه كارجو"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c0fca83c-e772-414f-812f-7291d58468f8"
+        name="دعوت به كار"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="4004e7af-44ad-4242-81f9-4e81a3918d30">
+            <useCaseMoniker
+              Id="bd72f320-c186-4baf-a972-4c91d077c0c8"
+              LastKnownName="ديدن كانديدها"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bd72f320-c186-4baf-a972-4c91d077c0c8"
+        name="ديدن كانديدها"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="6887259e-4a9c-4d14-9606-60763845eb75"
+        name="مدير"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="af83df01-4863-4498-8e80-ede1f90711d8"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="becf484a-c7cd-4da4-a94d-72b1d59af6f7"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="c792c568-4b80-4fe4-a929-472814e8f598"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="ليست كارجويان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e29bd63e-652b-4a91-8565-3feb1f7d2555"
+              LastKnownName="ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97d8337e-4dac-4e9a-b8d0-04df74e47e12"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b42333e-0a7b-47a5-bd5c-a90d67a375db"
+                  name="ليست كارجويان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c94f833b-3355-4ec4-9462-df247f46994a"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="ليست كارفرمايان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7b5b514e-cc27-4efe-8365-033ff7d0adca"
+              LastKnownName="ليست كارفرمايان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d56ef753-759e-406a-9b38-a5b6a5dedf2c"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cef47678-f07a-479c-a8c8-cb28ac3c11d6"
+                  name="ليست كارفرمايان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f1a8b6b2-97c6-48c8-a4f8-28484d814c1a"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="جزئيات كارفرما"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b0269309-2f69-4def-a907-c74f9e97042d"
+              LastKnownName="جزئيات كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="213800cb-408a-4735-978b-7e3a5e26567d"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2da07d0-95ed-4269-8d37-c8a631834445"
+                  name="جزئيات كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="40374622-4401-4aed-aa0e-cdaa12a5a997"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="حذف كارفرما"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4959ca85-409f-4a83-80cb-e0f7f351f10e"
+              LastKnownName="حذف كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e8952e8-3c92-4806-a885-c76ead4ffcf3"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="930067de-be92-432e-bbb8-889bd3096ab4"
+                  name="حذف كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="83f2b866-34c1-4215-8173-de857a5462b1"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="جزئيات كارجو"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08"
+              LastKnownName="مشاهده رزومه"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f698cbb2-266e-4698-9efd-9e3159f9255a"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03dac0fa-94b4-4962-bb27-7e5d5dc87cc5"
+                  name="جزئيات كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c4b89569-5063-4573-8e88-e3a5cbff2132"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="حذف كارجو"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1d73d962-e07a-43e4-96df-6d9297915c7b"
+              LastKnownName="حذف كارجو"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bf29daa6-beb9-4e0b-8c1a-fd2b3a2b2bdb"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="23eee30a-5334-49dc-ac0c-afab9058ecbd"
+                  name="حذف كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4a60cdda-9986-48ef-b080-248d93db044a"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="حذف شغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d8d94fda-426b-4f11-88de-ec40404d5f97"
+              LastKnownName="حذف شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="50e926a9-8a92-4a9b-b524-5bd3e94f64eb"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1ea26f4-e879-42f2-8305-82a079be7250"
+                  name="حذف شغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="eeb6005a-be69-47b8-b31d-d498bff62bda"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="89e325e5-83b5-4db1-bc45-18debc2587d1"
+              LastKnownName="حذف لينك"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3863ec88-322b-4d70-9aed-add7cd3b33a7"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3361dc9c-4c46-4dfe-a7fa-ed214df33c10"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="552431a6-44e5-43a5-8ee5-4bfe328b3aaf"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="UseCase5"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="154fa89b-e0ca-4508-8bcf-494cb8de44e4"
+              LastKnownName="جزئيات لينك"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b1de8df-9ac3-4603-ac92-385d8870c4d9"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7884b21a-534b-41a9-9f69-02cde2c55732"
+                  name="UseCase5"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0007f8c4-e59e-4a29-8881-c72b0e122e6c"
+            isDerived="false"
+            sourceEndRoleName="مدير"
+            targetEndRoleName="UseCase6"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0150ef71-f554-42b7-99f5-bf9d0eabd0b1"
+              LastKnownName="ليست لينكها"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55fd722e-c68a-4c40-a621-44f4f1e4e974"
+                  name="مدير"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c544ff08-231c-4b0d-b0af-df3b1e8a8543"
+                  name="UseCase6"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b2057005-9a31-4c8e-bf93-77f8b281b0e7"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c6769f76-46fd-487f-a0ed-0d235028dff3"
+        name="كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="37fcc5f8-66ef-42e1-af95-385e8e263f7e"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="becf484a-c7cd-4da4-a94d-72b1d59af6f7"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="de2f40a3-8eb1-47b3-9736-7a9fb4e581ce"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="ليست كارجويان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e29bd63e-652b-4a91-8565-3feb1f7d2555"
+              LastKnownName="ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88e1d1a5-c762-4356-9896-68da4ba998b8"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="84114504-7746-4766-8045-bfefba3a51c9"
+                  name="ليست كارجويان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1fcc8cd9-f2fe-4249-b8f8-324f8cbb5179"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="جزئيات كارجو"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08"
+              LastKnownName="مشاهده رزومه"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03a2278e-cd32-40eb-ba23-159eb85bbf2c"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6fe9460e-44d8-47a3-bea1-cd6a18684f03"
+                  name="جزئيات كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1c07ebbc-5850-43e6-ab2a-f2aaf15efe43"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="43cc4333-5c91-492f-828d-e50052f248cb"
+              LastKnownName="ارسال دعوت نامه"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c36335d6-3274-4b00-a229-91abff6d6f0e"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a8eff2e5-e856-4447-a086-a6c5f025b016"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3f4caa0c-b870-497f-9a12-846059d1d083"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="ارسال فرصت شغلي"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="17770519-1085-498d-bda3-bf82af32846c"
+              LastKnownName="ارسال فرصت شغلي"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd5d2629-417b-4ff5-b5ff-f394989f7656"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bfe1e09b-7f54-4a66-95b6-85a5f6d89fbf"
+                  name="ارسال فرصت شغلي"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b1e7aada-fe37-49bf-afb7-5b0da1b1d27e"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="ليست كانديدهاي من"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3de4d841-9af5-40aa-9bd7-5859603fe8e4"
+              LastKnownName="ليست كانديدهاي من"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b136d63-4204-42ed-8274-7407a272d5e0"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da640a6f-ec43-4b83-a0da-b8e302886752"
+                  name="ليست كانديدهاي من"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ef0581fd-97b7-47bf-b1f1-7087c82dd450"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="جزئيات كانديد"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="501c8553-c3a4-485c-a8d7-eda5c0de90d8"
+              LastKnownName="جزئيات كانديد"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3819294a-4be2-4d89-88f6-36018404cfe2"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="687db381-0d8f-48f3-9e2c-38871b33cf1c"
+                  name="جزئيات كانديد"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="03728291-e083-465c-b5d7-a0d502b8d244"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="استخدام كانديد"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="14a70690-7406-4220-a496-959d20f5d770"
+              LastKnownName="استخدام كانديد"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e639a1c-3ea3-4bc5-bebe-118800ad9e23"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ee7d99e8-e854-4234-8dde-e471cee467de"
+                  name="استخدام كانديد"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="330ff723-3dff-40bf-8ffe-52c6da147497"
+            isDerived="false"
+            sourceEndRoleName="كارفرما"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2f9e406b-0c0f-47e9-b942-a6b4b35d173a"
+              LastKnownName="ليست مشاغل من"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a00c733-dafd-4898-8130-9eacf8727f3b"
+                  name="كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88acb680-cf7d-4c78-a3b3-e099ea96c87b"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0e0e3221-c719-452f-9574-f9e0d26a5acc"
+        name="ورود"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="becf484a-c7cd-4da4-a94d-72b1d59af6f7"
+        name="كاربر"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1db8bf1a-684a-4aaa-95e7-4e1fb71b998e"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="ورود"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e0e3221-c719-452f-9574-f9e0d26a5acc"
+              LastKnownName="ورود"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="834adb3c-1200-4fa5-b34d-36aa8a31fcbc"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a9ddc5a-7533-42f5-b4fb-71897b818fa3"
+                  name="ورود"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="523ffa44-619d-4e4f-9cc2-3587d486a5ab"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="خروج"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cc1ad899-953a-4eed-897c-6e917872fde1"
+              LastKnownName="خروج"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="533f2d7d-3647-4dd0-b594-8b8bb7c83595"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03303652-e4ee-44ad-a884-5e7b01df68b9"
+                  name="خروج"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7e9bf2a8-61d8-44e6-ab1f-62d5d3f330b4"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="تغيير كلمه عبور"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a905455a-af8c-4085-979c-5921ecb6452f"
+              LastKnownName="تغيير كلمه عبور"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="860faf65-dfaf-4a36-b3e4-3d4c457452dc"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="85ff5f59-dcda-4e01-aeec-d0d893b20a81"
+                  name="تغيير كلمه عبور"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="636e287e-b0cc-4c9a-8800-1558d9817392"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="مشاهده مشاغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d074a40e-a8ca-4b68-a602-dcaa81a26d4d"
+              LastKnownName="ليست مشاغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="df759d8f-cd6e-4748-9054-d66a59fd0494"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a52712d-8605-4671-a3e8-9f4fb38c788e"
+                  name="مشاهده مشاغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="865d1461-f72f-49df-af68-2bfcc366b68f"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="مشاهده جزئيات يك شغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="39d37edd-b96e-4891-aa4b-2f751d19ed38"
+              LastKnownName="جزئيات يك شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f094af3-5e50-4af7-b7dc-8de8d421ad4e"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26807262-6b78-42db-83f1-fd316ff65888"
+                  name="مشاهده جزئيات يك شغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4f7084be-4198-4cba-9fcb-6af0e5b2d653"
+            isDerived="false"
+            sourceEndRoleName="كاربر"
+            targetEndRoleName="تغيير مشخصات"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ec8c38cf-3db4-4030-8cd5-5660c5fc2dc2"
+              LastKnownName="تغيير مشخصات"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9bc54d87-4050-4b87-9af7-adc44a5e156b"
+                  name="كاربر"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba95756e-5414-4a96-ae35-acf3ba296a54"
+                  name="تغيير مشخصات"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cc1ad899-953a-4eed-897c-6e917872fde1"
+        name="خروج"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a905455a-af8c-4085-979c-5921ecb6452f"
+        name="تغيير كلمه عبور"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d074a40e-a8ca-4b68-a602-dcaa81a26d4d"
+        name="ليست مشاغل"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="39d37edd-b96e-4891-aa4b-2f751d19ed38"
+        name="جزئيات يك شغل"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="5b3f3ada-a048-417f-b3ea-a9a2e4f25172">
+            <useCaseMoniker
+              Id="d074a40e-a8ca-4b68-a602-dcaa81a26d4d"
+              LastKnownName="ليست مشاغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b5b514e-cc27-4efe-8365-033ff7d0adca"
+        name="ليست كارفرمايان"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e29bd63e-652b-4a91-8565-3feb1f7d2555"
+        name="ليست كارجويان"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b0269309-2f69-4def-a907-c74f9e97042d"
+        name="جزئيات كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="0b914fbe-e5bd-4c02-bda0-f7bcf0962cb9">
+            <useCaseMoniker
+              Id="7b5b514e-cc27-4efe-8365-033ff7d0adca"
+              LastKnownName="ليست كارفرمايان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4959ca85-409f-4a83-80cb-e0f7f351f10e"
+        name="حذف كارفرما"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="37cf4e01-8c43-4f97-a9a2-0f4f317678b4">
+            <useCaseMoniker
+              Id="b0269309-2f69-4def-a907-c74f9e97042d"
+              LastKnownName="جزئيات كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08"
+        name="مشاهده رزومه"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="9fe2fab7-6f66-41a4-9e7f-bd59242e469a">
+            <useCaseMoniker
+              Id="e29bd63e-652b-4a91-8565-3feb1f7d2555"
+              LastKnownName="ليست كارجويان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1d73d962-e07a-43e4-96df-6d9297915c7b"
+        name="حذف كارجو"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="78c7abbe-c060-420f-bcfc-137c8cbbacc0">
+            <useCaseMoniker
+              Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08"
+              LastKnownName="مشاهده رزومه"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3bf051d3-1971-4123-97b7-8d47f0d6c9bd"
+        name="حذف شغل"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e5c7cc3c-0d2d-4d4c-9e05-faebd8ac6d7f"
+        name="UseCase3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ee046f9f-e6a3-4f66-9b94-b4394f993270"
+        name="UseCase4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d8d94fda-426b-4f11-88de-ec40404d5f97"
+        name="حذف شغل"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c5f78ae8-4836-4b3e-881d-01fb6dfb499a">
+            <useCaseMoniker
+              Id="39d37edd-b96e-4891-aa4b-2f751d19ed38"
+              LastKnownName="جزئيات يك شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="89e325e5-83b5-4db1-bc45-18debc2587d1"
+        name="حذف لينك"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c9f4ca88-8fe7-4523-9e40-220578f93293">
+            <useCaseMoniker
+              Id="154fa89b-e0ca-4508-8bcf-494cb8de44e4"
+              LastKnownName="جزئيات لينك"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="154fa89b-e0ca-4508-8bcf-494cb8de44e4"
+        name="جزئيات لينك"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="86798a79-9327-4670-bcef-4501618c6310">
+            <useCaseMoniker
+              Id="0150ef71-f554-42b7-99f5-bf9d0eabd0b1"
+              LastKnownName="ليست لينكها"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0150ef71-f554-42b7-99f5-bf9d0eabd0b1"
+        name="ليست لينكها"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a064319-0a00-4ce6-ac26-606d68330092"
+        name="UseCase7"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="43cc4333-5c91-492f-828d-e50052f248cb"
+        name="ارسال دعوت نامه"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="cb2ee22c-cc6f-4c8e-bc03-df7cf525c370">
+            <useCaseMoniker
+              Id="2a07d311-4315-42cb-a6b6-0e68a7d03c08"
+              LastKnownName="مشاهده رزومه"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="cda26bfd-7137-4202-9653-d9ab2c5ff7ab"
+        name="كارجو"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="a4bf1b77-6225-40c9-98d2-81166f60a0b3"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="becf484a-c7cd-4da4-a94d-72b1d59af6f7"
+              LastKnownName="كاربر"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="f18a6498-4a63-49e5-9dc8-34cc985caa8e"
+            isDerived="false"
+            sourceEndRoleName="كارجو"
+            targetEndRoleName="جزئيات كارفرما"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b0269309-2f69-4def-a907-c74f9e97042d"
+              LastKnownName="جزئيات كارفرما"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="24283f97-6c6c-4e31-addb-53998cf5ef9c"
+                  name="كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2c249dc5-d212-47a8-9763-710ee5558362"
+                  name="جزئيات كارفرما"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="70d7881a-8f43-46ac-9169-562d02f5b977"
+            isDerived="false"
+            sourceEndRoleName="كارجو"
+            targetEndRoleName="ليست كارفرمايان"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7b5b514e-cc27-4efe-8365-033ff7d0adca"
+              LastKnownName="ليست كارفرمايان"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d74189e7-a2c5-4000-8627-c54a383965f0"
+                  name="كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91ec109d-556d-4c4d-a57d-8ed9a02fa975"
+                  name="ليست كارفرمايان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a4cc3b49-4d56-4acb-9e7c-b98727ee3198"
+            isDerived="false"
+            sourceEndRoleName="كارجو"
+            targetEndRoleName="ابراز علاقه به شغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4f6de20e-0371-4dca-af9d-5f8f6235e708"
+              LastKnownName="ابراز علاقه به شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="16bafe79-ee5e-4b07-b5d3-da050231d84e"
+                  name="كارجو"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa3af224-22da-4894-8b39-aa4c7b876ca1"
+                  name="ابراز علاقه به شغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f6de20e-0371-4dca-af9d-5f8f6235e708"
+        name="ابراز علاقه به شغل"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="066997a3-0d41-4485-9e9a-9d345744342a">
+            <useCaseMoniker
+              Id="39d37edd-b96e-4891-aa4b-2f751d19ed38"
+              LastKnownName="جزئيات يك شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="17770519-1085-498d-bda3-bf82af32846c"
+        name="ارسال فرصت شغلي"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3de4d841-9af5-40aa-9bd7-5859603fe8e4"
+        name="ليست كانديدهاي من"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="501c8553-c3a4-485c-a8d7-eda5c0de90d8"
+        name="جزئيات كانديد"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a43da8c5-23bc-42da-a360-0e481673eef5">
+            <useCaseMoniker
+              Id="3de4d841-9af5-40aa-9bd7-5859603fe8e4"
+              LastKnownName="ليست كانديدهاي من"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="14a70690-7406-4220-a496-959d20f5d770"
+        name="استخدام كانديد"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="54481443-fd6b-4af6-9bf1-f7839089e457">
+            <useCaseMoniker
+              Id="501c8553-c3a4-485c-a8d7-eda5c0de90d8"
+              LastKnownName="جزئيات كانديد"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f9e406b-0c0f-47e9-b942-a6b4b35d173a"
+        name="ليست مشاغل من"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ec8c38cf-3db4-4030-8cd5-5660c5fc2dc2"
+        name="تغيير مشخصات"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="de9fb11f-79cd-486e-a6b9-c238837aac33"
+        name="مهمان"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8a29c539-2de2-462a-8a34-c631c2e2a943"
+            isDerived="false"
+            sourceEndRoleName="مهمان"
+            targetEndRoleName="ثبت نام"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2f53ab5a-75eb-45c2-be4f-5e3ebfcf7a32"
+              LastKnownName="ثبت نام"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd9b72a1-0d9b-4321-88cd-d8cb0fe0abea"
+                  name="مهمان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f24e766a-aba0-42e4-b00c-703214d02cae"
+                  name="ثبت نام"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d36d45be-473c-4cb9-b567-1ea0827df250"
+            isDerived="false"
+            sourceEndRoleName="مهمان"
+            targetEndRoleName="جزئيات يك شغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="39d37edd-b96e-4891-aa4b-2f751d19ed38"
+              LastKnownName="جزئيات يك شغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="06d54ea2-90e9-45f7-8cfa-e2cbbb4a8dbe"
+                  name="مهمان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa9b2f09-33d4-4b5a-b04f-6acf19c24677"
+                  name="جزئيات يك شغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7191cefe-1d0b-4649-a8ea-74b4986859a5"
+            isDerived="false"
+            sourceEndRoleName="مهمان"
+            targetEndRoleName="ليست مشاغل"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d074a40e-a8ca-4b68-a602-dcaa81a26d4d"
+              LastKnownName="ليست مشاغل"
+              LastKnownLocation="OnlineJobFondingModeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ec85b7f-e289-4f3b-a30d-900e87881bc9"
+                  name="مهمان"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc164840-f983-4d6a-9ee3-235eae602089"
+                  name="ليست مشاغل"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f53ab5a-75eb-45c2-be4f-5e3ebfcf7a32"
+        name="ثبت نام"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

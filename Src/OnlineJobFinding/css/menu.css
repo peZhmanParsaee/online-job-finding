@@ -1,0 +1,163 @@
+﻿
+#nav, #nav ul ul, #nav ul {z-index:1000; /* This makes the dropdown menus appear above the page content below */	}
+/* تنظيمات دربرگيرنده منو */
+#nav {
+	margin: 0px auto 0px auto;
+    padding: 0px 20px 0px 20px;
+    height: 43px;
+    background: #fefefe;
+    /* گرد كردن گوشه ها */
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+    
+    /* background Color and Gradients*/
+   /*
+    background: #014464;
+    background: -moz-linear-gradient(top, #404040, #4B4A49);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#404040), to(#4B4A49));
+    background: -o-linear-gradient(top, #404040, #4B4A49);    
+    filter:  "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#404040',  endColorstr='#4B4A49')"; /* IE6 & IE7  */
+   /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#404040', endColorstr='#4B4A49')"; /* IE8 */
+            
+    /* Borders */   
+    /*border: 1px solid #002232;
+    border-bottom: 0;*/
+    
+    /* Box Shadows */     
+    /*-moz-box-shadow: inset 0px 0px 1px #edf9ff;
+    -webkit-box-shadow: inset 0px 0px 1px #edf9ff;
+    box-shadow: inset 0px 0px 1px #edf9ff;*/
+}
+
+/* عناصر منوي پدر */
+#nav ul {	
+	list-style:none;
+	width: 100%;
+	margin:10px auto 0px auto;	
+	position: relative;
+	
+}
+#nav ul li {
+	float:right;	
+	position:relative;	
+	margin:0px 0px -1px 0px;
+	text-align: right;
+	padding-right: 10px;
+}
+#nav ul li a {
+	display:block;
+	margin:0;
+	padding:.6em .5em .4em;	
+    color: #555555;   
+    text-decoration: none;    
+    font-size: 1.2em;
+}
+#nav ul li.active a { {
+
+}
+#nav ul li a:hover {	
+
+    /* رنگ پس زمينه عناصر منوي پدر */
+    
+    background: -moz-linear-gradient(top, #f4f4f4, #eeeeee);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4f4f4), to(#eeeeee));
+    background: -o-linear-gradient(top, #f4f4f4, #eeeeee);
+    filter:     "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f4f4f4', endColorstr='#eeeeee')"; /* IE6 & IE7  */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f4f4f4', endColorstr='#eeeeee')"; /* IE8 */
+    background: #f4f4f4;
+    
+    /* گرد كردن گوشه بالا چپ و بالا راست */
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius:    5px 5px 0px 0px;
+    -ms-border-radius:     5px 5px 0px 0px;
+    -o-border-radius:      5px 5px 0px 0px;
+    border-radius:         5px 5px 0px 0px;
+	
+}
+#nav ul li:hover a,
+#nav ul li.hover a { /* به خاطر اينترنت اكسپلورر 6 و پايين تر */		
+	color: #161616;
+    text-shadow: 1px 1px 1px #000;     
+}
+
+/* زير منوها */
+#nav ul ul {
+	display:none; /* زير منوها به صورت پيش فرض مخفي هستند */	
+	position:absolute;		
+	top: 33px;
+	right:10px;
+	margin:0;
+	margin: -7 0 0 12px;
+	padding-top: 3px;
+	padding-bottom: 13px;
+	width: 150px;
+	float: right;
+   list-style: none;
+   text-align: right;
+    z-index: 1000;
+    
+   /* گرد كردن گوشه بالا چپ و پايين راست و چپ */
+   
+   -moz-border-radius: 5px 0px 5px 5px;
+   -webkit-border-radius: 5px 0px 5px 5px;
+   border-radius: 5px 0px 5px 5px;
+
+   /* رنگ پس زمينه و گرادينت زير منو */
+   
+   background: #f4f4f4;
+   background: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#bbbbbb));
+   background: -o-linear-gradient(top, #eeeeee, #bbbbbb);  
+   filter:     "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#70404040',  endColorstr='#70404040')"; /* IE6 & IE7  */
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#70404040', endColorstr='#70404040')"; /* IE8 */
+   background: rgba(64,64,64,.6);
+	
+}
+#nav ul ul.dropdownproducts
+{
+    width: 200px;
+}
+#nav ul ul li {
+   padding:0;
+   float: none;   
+   text-align: right;     
+   line-height: 24px;  
+   width: 100%;
+}
+#nav ul ul li a {width: 95%;}
+#nav ul ul li a,
+#nav ul li.active li a,
+#nav ul li:hover ul li a,
+#nav ul li.hover ul li a { /* به خاطر اينترنت اكسپلورر 6 و پايين تر */	
+    z-index: 1000;
+    padding:0;
+    padding: 1px 5px 1px 1px;    
+    /*color:#015b86;    */
+    color: #eee;
+    margin:0;    
+    border-bottom: 1px solid #000;    
+    
+}
+#nav ul ul li a:hover,
+#nav ul li.active ul li a:hover,
+#nav ul li:hover ul li a:hover,
+#nav ul li.hover ul li a:hover { /* به خاطر اينترنت اكسپلورر 6 و پايين تر */
+    color:#029feb;
+    
+    /* گرد كردن گوشه بالا چپ و بالا راست */
+    -webkit-border-radپ و بالا راست */
+    -webkit-border-چپ و بالا راست */
+    -webkit-border-rad;
+    /* گرد كردن گوشه بالا چپ و بالا راست */
+    -webkit-border-radius: 0px;
+    -moz-border-radius:    0px;
+    -ms-border-radius:     0px;
+    -o-border-radius:      0px;
+    border-radius:         0px;
+}
+
+/* نمايش زيرمنوها با هاور كردن */
+#nav ul li:hover ul,
+#nav ul li.hover ul { /* به خاطر اينترنت اكسپلورر 6 و پايين تر */
+	display:block; /* نمايش زيرمنوها */
+}

@@ -1,0 +1,64 @@
+﻿
+.boxRound {
+    background-color: #fff;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin-top: 5px;
+    width: 200px;
+    padding:0 3px;
+   height:25px;
+	
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-o-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+input.textEntry
+{
+    background-color: #fff;
+     width: 200px;
+    border: 0px solid #fff;
+    background: #fff;
+    background: -o-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+
+}
+input.textEntry:focus
+{
+    background-color: #fff;
+    border: 0px solid #fff;
+    background: #fff;
+    outline: none;
+}
+.submitButton
+{
+    padding: 5px 0;
+    
+}
+
+.submitButton input
+{
+    border: 1px solid #527721;
+    padding: 5px 20px;
+    color: #55762F;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: -o-linear-gradient(top, #A9D450, #EEEEEE);
+    background: -webkit-linear-gradient(top, #A9D450, #77BB32);
+    text-shadow: 1px 0px #000;
+    
+    -webkit-transition: all 1s;
+}
+
+.submitButton input:hover
+{
+    background: -webkit-linear-gradient(top, #77BB32,#A9D450);
+}

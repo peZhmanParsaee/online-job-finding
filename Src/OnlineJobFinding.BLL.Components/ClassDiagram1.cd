@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OnlineJobFinding.BLL.Components.AdministratorBLL">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAEAAAgBACAAAAAAAAIAAQABQAAAIAAwAAAAFAg=</HashCode>
+      <FileName>AdministratorBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.Anchor">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAACAAAAA=</HashCode>
+      <FileName>Anchor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.ApplicantBLL">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAEEQBCEAAACIAAAAAAQQQAABIAOAAACgEAASEAg=</HashCode>
+      <FileName>ApplicantBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.CandidateBLL">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAAAAAAAAAAAAAABAAAAAQCAAAAAAAAAAIAAA=</HashCode>
+      <FileName>CandidateBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.DavatNamehBLL">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAQACAAAAAgAEAIAAQAAAAgAAIAAAAAAQAAABAACgA=</HashCode>
+      <FileName>DavatNamehBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.EmployerBLL">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAkAAQKEAABAAAAAAAEIAAAEJAAAIAAAAAIoABBA=</HashCode>
+      <FileName>EmployerBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.JobBLL">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAAAAgAEAIAAQAAAAgAAIAAAAAAQAAABAACAA=</HashCode>
+      <FileName>JobBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineJobFinding.BLL.Components.UserBLL">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAABACEACABAAQAAAEAAAAAIAAAABRAABAEAA=</HashCode>
+      <FileName>UserBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
